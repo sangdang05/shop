@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+.login{
+	width: 860px;
+	margin: 0 auto;
+	font-size: 13px;
+	margin-top: 25px;
+}
+.login button{
+	outline: none;
+	border: none;
+}
+.login button:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+.login-infor{
+	display: flex;
+}
+.login-infor_title{
+	display: flex;
+	flex-grow: 1;
+	font-size: 22px;
+	font-weight: 400;
+}
+.login-infor_login{
+	line-height: 25px;
+	font-size: 14px;
+}
+.login-infor_login a{
+	text-decoration: none;
+}
+.login-form form{
+	display: flex;
+	width: 810px;
+	margin: 0 auto;
+}
+.login-form-col1{
+	width: 45%;
+	margin-left: 4%;
+	margin-right: 6%;
+	margin-top: 15px;
+}
+.login-form-col2{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.login-form-col2 a{
+	text-decoration: none;
+}
+.login-form input{
+	outline: none;
+	padding: 8px 0px 8px 2px;
+}
+.login-form label{
+	padding-bottom: 5px;
+}
+.login-form-name, .login-form-pass{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+.login-form-col1 span{
+	float: right;
+	margin-top: -10px;
+}
+.login-form-submit{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+	padding-bottom: 7px;
+}
+.login-form-submit button{
+	background-color: #f57224;
+	padding: 12px 0;
+	font-size: 17px;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
+.login-form-submit button:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+.other-login label{
+	font-size: 12px;
+}
+.other-login-service i{
+	padding-right: 10px;
+}
+.other-login-service-face{
+	display: flex;
+	flex-direction: column;
+}
+.other-login-service-face button{
+	padding: 10px 0;
+	background-color: #3b5998;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 3px;
+}
+.other-login-service-google{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.other-login-service-google button{
+	background-color: #d34836;
+	padding: 10px 0;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 3px;
+}
+@media screen and (max-width: 414px){
+	.login{
+		width: 100%;
+	}
+	.login-form form{
+		width: 100%;
+		flex-direction: column;
+	}
+	.login-infor{
+		flex-direction: column;
+		margin-left: 10px;
+	}
+	.login-form-col1, .login-form-col2{
+		width: 95%;
+		margin-left: 5px;
+	}
+	.login-form-submit{
+		display: flex;
+		flex-grow: 1;
+	}
+	.other-login-mail,
+	.other-login-service-face, 
+	.other-login-service-google{
+		display: flex;
+		flex-grow: 1;
+	}
+}
+@media screen and (min-width: 415px) and (max-width: 999px){
+	.login{
+		width: 70%;
+	}
+	.login-form form{
+		width: 100%;
+		flex-direction: column;
+	}
+	.login-infor{
+		flex-direction: column;
+		margin-left: 10px;
+	}
+	.login-form-col1, .login-form-col2{
+		width: 95%;
+		margin-left: 5px;
+	}
+	
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="common/css/register.css">
+	<link rel="stylesheet" type="text/css" href="common/css/style.css">
+	<link rel="stylesheet" type="text/css" href="common/css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-5.12.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.4.1/css/bootstrap.min.css">
+	<script type="text/javascript" src="jquery-3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="common/css/notify-metro.css" />
+	<script src="common/js/notify.min.js"></script>
+	<script type="text/javascript" src="bootstrap-4.4.1/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!--------------------------------------HEADER------------------------------------------------>
+	<header>
+		<div class="header-body">
+			<div class="container">
+				<div class="header-body-logo">
+					<a href="#" title="ELECTRO">
+						<img src="common/img/logo.webp">
+					</a>
+				</div>
+				<form class="header-body-search">
+					<div class="header-body-search_input">
+						<input type="text" name="" placeholder="Tìm Kiếm..." title="Tìm kiếm">
+					</div>
+					<div class="header-body-search_button">
+						<i class="fa fa-search"></i>
+					</div>
+				</form>
+				<div class="header-body-cart">
+					<div class="header-body-cart-item">
+						<div class="js-wishView header-cart-wishlist" data-count="0">
+							<a href="#" title="Danh sách yêu thích">
+								<i class="far fa-heart"></i>
+								<span>Yêu thích</span>
+							</a>
+						</div>
+						<div class="js-cartView header-cart-product" data-count="0">
+							<a href="#" title="Giỏ hàng">
+								<i class="fas fa-shopping-cart"></i>
+								<span>Giỏ hàng</span>
+							</a>
+						</div>
+					</div>
+					<div class="header-nav-account">
+						<div class="header-nav-account-regiter">
+							<a href="register.html" title="Đăng kí">
+								<div class="header-nav-account-regiter_icon">
+									<i class="far fa-user"></i>
+								</div>
+								<div class="header-nav-account-regiter_txt">Đăng kí</div>
+							</a>
+						</div>
+						<div class="header-nav-account-line"></div>
+						<div class="header-nav-account-login">
+							<a href="login.html" title="Đăng nhập">
+								<div class="header-nav-account-login_icon">
+									<i class="fas fa-sign-in-alt"></i>
+								</div>
+								<div class="header-nav-account-login_txt">Đăng nhập</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</header>
+	<!-------------------------------------NAV MENU----------------------------------------------->
+	<nav class="only-pc">
+		<div class="container">
+			<ul class="nav-menu">
+				<li class="current" data-hover="Trang chủ"><a href="index.html">Trang chủ</a></li>
+				<li><a href="#" data-hover="Tablet">Tablet</a></li>
+				<li><a href="#" data-hover="LapTop">LapTop</a></li>
+				<li><a href="#" data-hover="Đồng hồ">Đồng hồ</a></li>
+				<li><a href="#" data-hover="Phụ kiện">Phụ kiện</a></li>
+				<li><a href="#" data-hover="Sim thẻ">Sim thẻ</a></li>
+				<li><a href="#" data-hover="Tin tức">Tin tức</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="js-nav nav">
+		<div class="nav-content">
+			<div class="js-navHam nav-hamburger">
+				<div class="nav-hamburger-content">
+					<span class="nav-hamburger-content_ico"></span>
+					<span class="nav-hamburger-content_ico"></span>
+					<span class="nav-hamburger-content_ico"></span>
+				</div>
+			</div>
+		</div>
+		<div class="nav-menu-mb">
+			<div class="nav-menu-content">
+				<div class="nav-menu-content-list">
+					<p class="nav-menu-content-list-item">
+						<a href="#">Điện thoại</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Tablet</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Đồng hồ</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Phụ kiện</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Sim thẻ</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Khuyến mãi</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#" class="js-wishView-Mb" data-count="0">
+							<i class="far fa-heart"></i>&nbsp;&nbsp;Yêu thich
+						</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="register.html" title="Đăng kí">
+							<i class="far fa-user"></i>&nbsp;&nbsp;Đăng kí
+						</a>
+						<span>||</span>
+						<a href="login.html" title="Đăng Nhập">
+							<i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;Đăng nhập
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--------------------------------------CONTENT------------------------------------------------>
+	<div class="register">
+		<div class="register-infor">
+			<div class="register-infor_title">
+				Tạo tài khoản
+			</div>
+			<div class="register-infor_login">
+				Bạn đã là thành viên?
+				<a href="login.html">Đăng nhập</a>
+				tại đây
+			</div>
+		</div>
+		<div class="register-form">
+			<form>
+				<div class="register-form-col1">
+					<div class="register-form-name">
+						<label>Họ tên*</label>
+						<input type="text" name="name" placeholder="Họ tên">
+					</div>
+					<div class="register-form-pass">
+						<label>Mật khẩu*</label>
+						<input type="password" name="pass" placeholder="Tối thiểu 6 kí tự bao gồm số và kí tự">
+					</div>
+					<div class="register-form-birthday">
+						<label>Ngày sinh</label>
+						<div class="register-form-birthday-infor">
+							<div class="register-form-birthday_date">
+								<select>
+									<option value="date">Ngày</option>
+									<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option>
+									<option value="31">31</option>
+								</select>
+							</div>
+							<div class="register-form-birthday_month">
+								<select>
+									<option value="month">Tháng</option>
+									<option value="Jan">Tháng 1</option>
+									<option value="Feb">Tháng 2</option>
+									<option value="Mar">Tháng 3</option>
+									<option value="Apr">Tháng 4</option>
+									<option value="May">Tháng 5</option>
+									<option value="Jun">Tháng 6</option>
+									<option value="Jul">Tháng 7</option>
+									<option value="Aug">Tháng 8</option>
+									<option value="Sep">Tháng 9</option>
+									<option value="Oct">Tháng 10</option>
+									<option value="Nov">Tháng 11</option>
+									<option value="Dec">Tháng 12</option>
+								</select>
+							</div>
+							<div class="register-form-birthday_year">
+								<select>
+									<option value="year">Năm</option>
+									<option value="2010">2010</option>
+									<option value="2011">2011</option>
+									<option value="2012">2012</option>
+									<option value="2013">2013</option>
+									<option value="2014">2014</option>
+									<option value="2015">2015</option>
+									<option value="2016">2016</option>
+									<option value="2017">2017</option>
+									<option value="2018">2018</option>
+									<option value="2019">2019</option>
+									<option value="2020">2020</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="register-form-col2">
+					<div class="register-form-phone">
+						<label>Số điện thoại*</label>
+						<input type="text" name="phone" placeholder="Nhập số điện thoại của bạn" value inputmode="numeric" pattern="[0-9]*">
+					</div>
+					<div class="register-form-checkKM">
+						<input type="checkbox" name="checkKm" checked="checked" />
+						<label>Tôi muốn nhận các thông tin khuyến mãi</label>
+					</div>
+					<div class="register-form-submit">
+						<button>Đăng kí</button>
+					</div>
+					<span>Tôi đồng ý vói <a href="#">chính sách bảo mật của electro</a></span>
+					<div class="other-register">
+						<label>Hoặc Đăng kí với</label>
+						<div class="other-register-mail">
+							<button>Đăng kí bằng Email</button>
+						</div>
+						<div class="other-register-service">
+							<div class="other-register-service-face">
+								<button title="facebook"><i class="fab fa-facebook-f"></i>Facebook</button>
+							</div>
+							<div class="other-register-service-google">
+								<button title="google"><i class="fab fa-google-plus-g"></i>Google</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!--------------------------------------FOOTER------------------------------------------------->
+	<footer>
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-content-item">
+					<div class="footer-content-infor">
+						<a href="#">Mua hàng thanh toán Online</a>
+						<a href="#">Mua hàng trả góp Online</a>
+						<a href="#">Huỷ giao dịch và đổi trả</a>
+						<a href="#">Tra thông tin đơn hàng</a>
+						<a href="#">Tra thông tin bảo hành</a>
+						<a href="#">Trung tâm bảo hành chính hãng</a>
+					</div>
+				</div>
+				<div class="footer-content-item">
+					<div class="footer-content-baohanh">
+						<a href="#">Chính sách bảo hành</a>
+						<a href="#">Chính sách sử dụng</a>
+						<a href="#">Chính sách bảo mật</a>
+						<a href="#">Ưu đãi từ đối tác</a>
+						<a href="#">Tuyển dụng</a>
+						<a href="#">Liên hệ hợp tác kinh doanh</a>
+					</div>
+				</div>
+				<div class="footer-content-item">
+					<div class="footer-content-place">
+						<span>Tìm cửa hàng</span>
+						<a href="#">Tìm cửa hàng ở Đăk Lăk</a>
+						<a href="#">Tìm cửa hàng ở TP.Hồ Chí Minh</a>
+						<a href="#">Tìm cửa hàng từ xa</a>
+					</div>
+				</div>
+				<div class="footer-content-item">
+					<div class="footer-content-call">
+						<p>Gọi mua hàng: <strong>1800.2097</strong> (8h00 - 22h00)</p>
+						<p>Gọi khiếu nại: <strong>1800.2063</strong> (8h00 - 21h30)</p>
+						<p>Gọi bảo hành: <strong>1800.2064</strong> (8h00 - 21h00)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="common/js/script.js"></script>
+</body>
+</html>

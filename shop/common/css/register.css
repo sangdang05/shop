@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+.register{
+	width: 860px;
+	margin: 0 auto;
+	font-size: 13px;
+	margin-top: 25px;
+}
+.register button{
+	outline: none;
+	border: none;
+}
+.register button:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+.register-infor{
+	display: flex;
+}
+.register-infor_title{
+	display: flex;
+	flex-grow: 1;
+	font-size: 22px;
+	font-weight: 400;
+}
+.register-infor_login{
+	line-height: 25px;
+	font-size: 14px;
+}
+.register-infor_login a{
+	text-decoration: none;
+}
+.register-form form{
+	display: flex;
+	width: 810px;
+	margin: 0 auto;
+}
+.register-form-col1{
+	width: 45%;
+	margin-left: 4%;
+	margin-right: 6%;
+	margin-top: 10px;
+}
+.register-form-col2{
+	width: 40%;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.register-form-col2 a{
+	text-decoration: none;
+}
+.register-form input{
+	outline: none;
+	padding: 8px 0px 8px 2px;
+}
+.register-form label{
+	padding-bottom: 5px;
+}
+.register-form-name, .register-form-pass, .register-form-birthday, .register-form-phone{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+.register-form-birthday-infor{
+	display: flex;
+}
+.register-form-birthday-infor select{
+	padding: 5px 15px 5px 0px;
+	margin-right: 0px;
+	outline: none;
+}
+.register-form-submit{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+	padding-bottom: 7px;
+}
+.register-form-submit button{
+	background-color: #f57224;
+	padding: 12px 0;
+	font-size: 17px;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
+.register-form-submit button:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+.other-register{
+	margin-top: 20px;
+}
+.other-register-mail{
+	display: flex;
+	flex-direction: column;
+	margin-top: 7px;
+}
+.other-register-mail button{
+	background-color: #fff;
+	border: 1px solid #f57224;
+	padding: 14px 0;
+	color: #000;
+	font-size: 12px;
+	text-transform: uppercase;
+	outline: none;
+	border-radius: 3px;
+}
+.other-register-service{
+	display: flex;
+	margin-top: 10px;
+}
+.other-register label{
+	font-size: 12px;
+}
+.other-register-service i{
+	position: absolute;
+	left: 20px;
+	color: #fff;
+}
+.other-register-service-face{
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 4%;
+	position: relative;
+}
+.other-register-service-face button{
+	padding: 10px 0;
+	background-color: #3b5998;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 3px;
+}
+.other-register-service-google{
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.other-register-service-google button{
+	background-color: #d34836;
+	padding: 10px 0;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 3px;
+}
+@media screen and (max-width: 414px){
+	.register{
+		width: 100%;
+	}
+	.register-form form{
+		width: 100%;
+		flex-direction: column;
+	}
+	.register-infor{
+		flex-direction: column;
+		margin-left: 10px;
+	}
+	.register-form-col1, .register-form-col2{
+		width: 95%;
+		margin-left: 5px;
+	}
+	.register-form-submit{
+		display: flex;
+		flex-grow: 1;
+	}
+	.other-register-mail,
+	.other-register-service-face, 
+	.other-register-service-google{
+		display: flex;
+		flex-grow: 1;
+	}
+}
+@media screen and (min-width: 415px) and (max-width: 999px){
+	.register{
+		width: 70%;
+	}
+	.register-form form{
+		width: 100%;
+		flex-direction: column;
+	}
+	.register-infor{
+		flex-direction: column;
+		margin-left: 10px;
+	}
+	.register-form-col1, .register-form-col2{
+		width: 95%;
+		margin-left: 5px;
+	}
+	
+}

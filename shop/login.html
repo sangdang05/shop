@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="common/css/login.css">
+	<link rel="stylesheet" type="text/css" href="common/css/style.css">
+	<link rel="stylesheet" type="text/css" href="common/css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-5.12.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.4.1/css/bootstrap.min.css">
+	<script type="text/javascript" src="jquery-3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="common/css/notify-metro.css" />
+	<script src="common/js/notify.min.js"></script>
+	<script type="text/javascript" src="bootstrap-4.4.1/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!--------------------------------------HEADER------------------------------------------------>
+	<header>
+		<div class="header-body">
+			<div class="container">
+				<div class="header-body-logo">
+					<a href="#" title="ELECTRO">
+						<img src="common/img/logo.webp">
+					</a>
+				</div>
+				<form class="header-body-search">
+					<div class="header-body-search_input">
+						<input type="text" name="" placeholder="Tìm Kiếm..." title="Tìm kiếm">
+					</div>
+					<div class="header-body-search_button">
+						<i class="fa fa-search"></i>
+					</div>
+				</form>
+				<div class="header-body-cart">
+					<div class="header-body-cart-item">
+						<div class="js-wishView header-cart-wishlist" data-count="0">
+							<a href="#" title="Danh sách yêu thích">
+								<i class="far fa-heart"></i>
+								<span>Yêu thích</span>
+							</a>
+						</div>
+						<div class="js-cartView header-cart-product" data-count="0">
+							<a href="#" title="Giỏ hàng">
+								<i class="fas fa-shopping-cart"></i>
+								<span>Giỏ hàng</span>
+							</a>
+						</div>
+					</div>
+					<div class="header-nav-account">
+						<div class="header-nav-account-regiter">
+							<a href="register.html" title="Đăng kí">
+								<div class="header-nav-account-regiter_icon">
+									<i class="far fa-user"></i>
+								</div>
+								<div class="header-nav-account-regiter_txt">Đăng kí</div>
+							</a>
+						</div>
+						<div class="header-nav-account-line"></div>
+						<div class="header-nav-account-login">
+							<a href="login.html" title="Đăng nhập">
+								<div class="header-nav-account-login_icon">
+									<i class="fas fa-sign-in-alt"></i>
+								</div>
+								<div class="header-nav-account-login_txt">Đăng nhập</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</header>
+	<!-------------------------------------NAV MENU----------------------------------------------->
+	<nav class="only-pc">
+		<div class="container">
+			<ul class="nav-menu">
+				<li class="current" data-hover="Trang chủ"><a href="index.html">Trang chủ</a></li>
+				<li><a href="#" data-hover="Tablet">Tablet</a></li>
+				<li><a href="#" data-hover="LapTop">LapTop</a></li>
+				<li><a href="#" data-hover="Đồng hồ">Đồng hồ</a></li>
+				<li><a href="#" data-hover="Phụ kiện">Phụ kiện</a></li>
+				<li><a href="#" data-hover="Sim thẻ">Sim thẻ</a></li>
+				<li><a href="#" data-hover="Tin tức">Tin tức</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="js-nav nav">
+		<div class="nav-content">
+			<div class="js-navHam nav-hamburger">
+				<div class="nav-hamburger-content">
+					<span class="nav-hamburger-content_ico"></span>
+					<span class="nav-hamburger-content_ico"></span>
+					<span class="nav-hamburger-content_ico"></span>
+				</div>
+			</div>
+		</div>
+		<div class="nav-menu-mb">
+			<div class="nav-menu-content">
+				<div class="nav-menu-content-list">
+					<p class="nav-menu-content-list-item">
+						<a href="#">Điện thoại</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Tablet</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Đồng hồ</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Phụ kiện</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Sim thẻ</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Khuyến mãi</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#" class="js-wishView-Mb" data-count="0">
+							<i class="far fa-heart"></i>&nbsp;&nbsp;Yêu thich
+						</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="register.html" title="Đăng kí">
+							<i class="far fa-user"></i>&nbsp;&nbsp;Đăng kí
+						</a>
+						<span>||</span>
+						<a href="login.html" title="Đăng Nhập">
+							<i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;Đăng nhập
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--------------------------------------CONTENT------------------------------------------------>
+	<div class="login">
+		<div class="login-infor">
+			<div class="login-infor_title">
+				Đăng nhập
+			</div>
+			<div class="login-infor_login">
+				Bạn chưa có tài khoản?
+				<a href="register.html">Đăng kí</a>
+				tại đây
+			</div>
+		</div>
+		<div class="login-form">
+			<form>
+				<div class="login-form-col1">
+					<div class="login-form-name">
+						<label>Số điện thoại hoặc email*</label>
+						<input type="text" name="name" placeholder="Vui lòng nhập số điện thoại hoặc email của bạn">
+					</div>
+					<div class="login-form-pass">
+						<label>Mật khẩu*</label>
+						<input type="password" name="pass" placeholder="Tối thiểu 6 kí tự bao gồm số và kí tự">
+					</div>
+					<span>
+						<a href="#">Quên mật khẩu?</a>
+					</span>
+				</div>
+				<div class="login-form-col2">
+					<div class="login-form-submit">
+						<button>Đăng nhập</button>
+					</div>
+					<div class="other-login">
+						<label>Hoặc Đăng nhập với</label>
+						<div class="other-login-service">
+							<div class="other-login-service-face">
+								<button title="facebook"><i class="fab fa-facebook-f"></i>Facebook</button>
+							</div>
+							<div class="other-login-service-google">
+								<button title="google"><i class="fab fa-google-plus-g"></i>Google</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!--------------------------------------FOOTER------------------------------------------------->
+	<footer>
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-content-item">
+					<div class="footer-content-infor">
+						<a href="#">Mua hàng thanh toán Online</a>
+						<a href="#">Mua hàng trả góp Online</a>
+						<a href="#">Huỷ giao dịch và đổi trả</a>
+						<a href="#">Tra thông tin đơn hàng</a>
+						<a href="#">Tra thông tin bảo hành</a>
+						<a href="#">Trung tâm bảo hành chính hãng</a>
+					</div>
+				</div>
+				<div class="footer-content-item">
+					<div class="footer-content-baohanh">
+						<a href="#">Chính sách bảo hành</a>
+						<a href="#">Chính sách sử dụng</a>
+						<a href="#">Chính sách bảo mật</a>
+						<a href="#">Ưu đãi từ đối tác</a>
+						<a href="#">Tuyển dụng</a>
+						<a href="#">Liên hệ hợp tác kinh doanh</a>
+					</div>
+				</div>
+				<div class="footer-content-item">
+					<div class="footer-content-place">
+						<span>Tìm cửa hàng</span>
+						<a href="#">Tìm cửa hàng ở Đăk Lăk</a>
+						<a href="#">Tìm cửa hàng ở TP.Hồ Chí Minh</a>
+						<a href="#">Tìm cửa hàng từ xa</a>
+					</div>
+				</div>
+				<div class="footer-content-item">
+					<div class="footer-content-call">
+						<p>Gọi mua hàng: <strong>1800.2097</strong> (8h00 - 22h00)</p>
+						<p>Gọi khiếu nại: <strong>1800.2063</strong> (8h00 - 21h30)</p>
+						<p>Gọi bảo hành: <strong>1800.2064</strong> (8h00 - 21h00)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="common/js/script.js"></script>
+</body>
+</html>

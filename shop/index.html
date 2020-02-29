@@ -1,0 +1,1418 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ELECTRO</title>
+	<link rel="stylesheet" type="text/css" href="common/css/style.css">
+	<link rel="stylesheet" type="text/css" href="common/css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-5.12.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.4.1/css/bootstrap.min.css">
+	<script type="text/javascript" src="jquery-3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="common/css/notify-metro.css" />
+	<script src="common/js/notify.min.js"></script>
+	<script type="text/javascript" src="bootstrap-4.4.1/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!--------------------------------------HEADER-------------------------------------------->
+	<header>
+		<div class="header-body">
+			<div class="container">
+				<div class="header-body-logo">
+					<a href="#" title="ELECTRO">
+						<img src="common/img/logo.webp">
+					</a>
+				</div>
+				<form class="header-body-search">
+					<div class="header-body-search_input">
+						<input type="text" name="" placeholder="Tìm Kiếm..." title="Tìm kiếm">
+					</div>
+					<div class="header-body-search_button">
+						<i class="fa fa-search"></i>
+					</div>
+				</form>
+				<div class="header-body-cart">
+					<div class="header-body-cart-item">
+						<div class="js-wishView header-cart-wishlist" data-count="0">
+							<a href="#" title="Danh sách yêu thích">
+								<i class="far fa-heart"></i>
+								<span>Yêu thích</span>
+							</a>
+						</div>
+						<div class="js-cartView header-cart-product" data-count="0">
+							<a href="#" title="Giỏ hàng">
+								<i class="fas fa-shopping-cart"></i>
+								<span>Giỏ hàng</span>
+							</a>
+						</div>
+					</div>
+					<div class="header-nav-account">
+						<div class="header-nav-account-regiter">
+							<a href="register.html" title="Đăng kí">
+								<div class="header-nav-account-regiter_icon">
+									<i class="far fa-user"></i>
+								</div>
+								<div class="header-nav-account-regiter_txt">Đăng kí</div>
+							</a>
+						</div>
+						<div class="header-nav-account-line"></div>
+						<div class="header-nav-account-login">
+							<a href="login.htmls" title="Đăng nhập">
+								<div class="header-nav-account-login_icon">
+									<i class="fas fa-sign-in-alt"></i>
+								</div>
+								<div class="header-nav-account-login_txt">Đăng nhập</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</header>
+	<!------------------------------------NAV------------------------------------------------->
+	<nav class="only-pc">
+		<div class="container">
+			<ul class="nav-menu">
+				<li class="current" data-hover="Trang chủ"><a href="index.html">Trang chủ</a></li>
+				<li><a href="#" data-hover="Điện thoại">Điện thoại</a></li>
+				<li><a href="#" data-hover="Tablet">Tablet</a></li>
+				<li><a href="#" data-hover="Đồng hồ">Đồng hồ</a></li>
+				<li><a href="#" data-hover="Phụ kiện">Phụ kiện</a></li>
+				<li><a href="#" data-hover="Sim thẻ">Sim thẻ</a></li>
+				<li><a href="#" data-hover="Tin tức">Tin tức</a></li>
+				<li><a href="#" data-hover="Khuyến mãi">Khuyến mãi</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-------------Nav Mobile----------------------->
+	<div class="js-nav nav">
+		<div class="nav-content">
+			<div class="js-navHam nav-hamburger">
+				<div class="nav-hamburger-content">
+					<span class="nav-hamburger-content_ico"></span>
+					<span class="nav-hamburger-content_ico"></span>
+					<span class="nav-hamburger-content_ico"></span>
+				</div>
+			</div>
+		</div>
+		<div class="nav-menu-mb">
+			<div class="nav-menu-content">
+				<div class="nav-menu-content-list">
+					<p class="nav-menu-content-list-item">
+						<a href="#">Điện thoại</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Tablet</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Đồng hồ</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Phụ kiện</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Sim thẻ</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#">Khuyến mãi</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="#" class="js-wishView-Mb" data-count="0">
+							<i class="far fa-heart"></i>&nbsp;&nbsp;Yêu thich
+						</a>
+					</p>
+					<p class="nav-menu-content-list-item">
+						<a href="register.html" title="Đăng kí">
+							<i class="far fa-user"></i>&nbsp;&nbsp;Đăng kí
+						</a>
+						<span>||</span>
+						<a href="login.html" title="Đăng Nhập">
+							<i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;Đăng nhập
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-----------------------------Slide-------------------------------->
+	<div class="slide">
+		<div class="container">
+			<div class="Slide-Carousel">
+				<div id="myCarousel" class="carousel border" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<a href="#"><img class="d-block w-100" src="common/img/800-300-800x300-8.png"></a>
+						</div>
+						<div class="carousel-item">
+							<a href="#"><img class="d-block w-100" src="common/img/800-300-800x300-28.png"></a>
+						</div>
+						<div class="carousel-item">
+							<a href="#"><img class="d-block w-100" src="common/img/800-300-800x300-30.png"></a>
+						</div>
+						<div class="carousel-item">
+							<a href="#"><img class="d-block w-100" src="common/img/800-300-800x300.png"></a>
+						</div>
+						<div class="carousel-item">
+							<a href="#"><img class="d-block w-100" src="common/img/800-300-800x300-37.png"></a>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					</a>
+					<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					</a>
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active">
+							Realme 5i giá chỉ từ 3.690.000đ
+						</li>
+						<li data-target="#myCarousel" data-slide-to="1">
+							Đồng hồ thông minh giảm đến 1 triệu
+						</li>
+						<li data-target="#myCarousel" data-slide-to="2">
+							Phụ kiện online giảm đến 49%
+						</li>
+						<li data-target="#myCarousel" data-slide-to="3">
+							SamSung Note10 giảm 5 triệu
+						</li>
+						<li data-target="#myCarousel" data-slide-to="4">
+							Sắm Xiaomi giảm đến 1.5 triệu
+						</li>
+					</ol>
+				</div>
+			</div>
+			<div class="banner-sidebar">
+				<div class="banner-sidebar-item">
+					<a href="#" title="Galaxy A20s">
+						<img src="common/img/sidebar-1.png">
+					</a>
+				</div>
+				<div class="banner-sidebar-item">
+					<a href="#" title="Iphone 11 pro">
+						<img src="common/img/sidebar-2.png">
+					</a>
+				</div>
+				<div class="banner-sidebar-item">
+					<a href="#" title="Sắm LapTop">
+						<img src="common/img/sidebar-3.png">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---------------------------------------CONTENT--------------------------------------------------->
+	<content>
+		<div class="container">
+			<!-----------------------------Điện thoại mới--------------------------------------------------->
+			<div class="product">
+				<div class="product-head">
+					<div class="product-head_txt">
+						<a href="#">điện thoại mới</a>
+					</div>
+					<div class="product-head-tag">
+						<a href="#">iPhone</a>
+						<a href="#">Samsung</a>
+						<a href="#">Xiaomi</a>
+						<a href="#">OPPO</a>
+						<a href="#">Realme</a>
+						<a href="#">Vsmart</a>
+					</div>
+				</div>
+				<div class="product-content">
+					<div class="product-content-list">
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/new-phone/iphone11-purple-select-2019.webp">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										iPhone 11 Chính hãng (VN/A)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										19.990.000đ<span>21.990.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										Giảm 200.000đ khi mua kèm tai nghe airpods và
+										<strong>1 khuyến mãi</strong> khác
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 9%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>							
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/new-phone/iphone-11-pro-max-space-select-2019.webp">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										iPhone 11 Pro Max Chính hãng (VN/A)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										30.390.000 ₫<span>33.990.000 ₫ đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										Giảm 200.000đ khi mua kèm tai nghe airpods và
+										<strong>1 khuyến mãi</strong> khác
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 10%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/new-phone/note9-xanh-1.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Samsung Galaxy Note 9
+									</p>
+									<p class="product-content-list-item-detail_price">
+										12.990.000đ<span>22.990.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt"></p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 43%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/new-phone/note_10_plus_xanh.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Samsung Galaxy Note 10+ (Plus)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										23.590.000đ<span>26.990.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										Giảm thêm 3 triệu qua Galaxy Gift và 
+										<strong>2 khuyến mãi</strong> khác
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 12%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/new-phone/samsung-galaxy-a51-black_10.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Samsung Galaxy A51
+									</p>
+									<p class="product-content-list-item-detail_price">
+										6.700.000đ<span>7.990.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										Tặng Sim 4G Mobifone C90N 4GB/Ngày và 
+										<strong>1 khuyến mãi</strong> khác
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 16%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/new-phone/ss-galaxy-s10-plus-xanh-1.webp">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Samsung Galaxy S10+ (Plus)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										16.100.000đ<span>22.990.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+										<strong></strong> 
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 29%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/new-phone/vsmart-active-3-6gb-ram-1_6_2.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Vsmart Live 6GB
+									</p>
+									<p class="product-content-list-item-detail_price">
+										3.790.000đ<span></span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										Tặng Pin dự phòng Aukey PN-N51 10000 mAh Slim và 
+										<strong>2 khuyến mãi</strong> khác
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span></span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/new-phone/vsmart-live-xanh_1.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Vsmart Active 3 6GB Ram
+									</p>
+									<p class="product-content-list-item-detail_price">
+										4.590.000đ<span>4.990.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+										<strong></strong> 
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 8%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/new-phone/iphone_8_plus_64gb.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										iPhone 8 Plus 64GB Chính hãng (mã VN/A)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										13.590.000đ<span>15.590.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+										<strong></strong>
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 12%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/new-phone/_600x600__crop_600_asus_rog_phone2_min_1.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										ASUS ROG Phone 2 512GB
+									</p>
+									<p class="product-content-list-item-detail_price">
+										21.990.000đ<span></span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										Tặng tai nghe ROG Cetra trị giá 2.290.000Đ (Không áp dụng trên giá giảm) và 
+										<strong>1 khuyến mãi</strong> khác
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span></span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-SeeMore">
+					<a href="#">Xem thêm <span>10</span> sản phẩm&gt;&gt;</a>
+				</div>
+			</div>
+			<!--------------------------------Đồng hồ-------------------------------------------------------->
+			<div class="product">
+				<div class="product-head">
+					<div class="product-head_txt">
+						<a href="#">đông hồ thông minh</a>
+					</div>
+					<div class="product-head-tag">
+						<a href="#">iPhone</a>
+						<a href="#">Samsung</a>
+						<a href="#">Xiaomi</a>
+						<a href="#">Huawei</a>
+						<a href="#">vòng tay thông minh</a>
+					</div>
+				</div>
+				<div class="product-content">
+					<div class="product-content-list">
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/smart-watch/mtp62_vw_34fr_watch-40.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Apple Watch 5 44mm (GPS) Viền Nhôm Xám - Dây Đen Chính hãng (MWVF2)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										12.100.000đ<span>13.990.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt"></p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 13%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/smart-watch/Ap-watch-hong.webp">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Apple Watch 4 40mm (GPS) Viền Nhôm Vàng - Dây Hồng (MU682) Chính hãng
+									</p>
+									<p class="product-content-list-item-detail_price">
+										9.800.000đ<span>10.500.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										Chương trình "Thu cũ đổi mới Apple Watch" - Lên đời Apple Watch Series 4 chỉ từ 2.5 triệu
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 6%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/smart-watch/Ap-watch3 đen.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Apple Watch 3 38mm (GPS) Viền Nhôm Xám - Dây đen (MTF02) Chính hãng
+									</p>
+									<p class="product-content-list-item-detail_price">
+										5.800.000đ<span>6.190.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+										<strong></strong>
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 6%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/smart-watch/glx fit.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Đồng hồ thông minh Samsung Galaxy Fit (MB.199)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										1.490.000đ<span>2.490.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+										<strong></strong>
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 40%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/smart-watch/mi Amazfit.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Đồng hồ thông minh Xiaomi Amazfit GTS
+									</p>
+									<p class="product-content-list-item-detail_price">
+										2.990.000đ<span></span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										[Từ 1-23/1] Mua đồng hồ Amazfit trúng combo 5 chuột Logitech Marvel 1.5 triệu
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span></span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/smart-watch/mi-amazfit bip.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Đồng hồ thông minh Xiaomi Amazfit Bip (MB.055, MB.086)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										1.420.000đ<span>2.090.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										[Từ 1-23/1] Mua đồng hồ Amazfit trúng combo 5 chuột Logitech Marvel 1.5 triệu
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 32%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/smart-watch/mi-band-4-6-600x600.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Vòng đeo tay thông minh Xiaomi Mi Band 4 (MB.201)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										690.000đ<span>850.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+										<strong></strong>
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 18%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/smart-watch/ss-glx-active 2 nhom.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Samsung Galaxy Watch Active 2 44mm Vỏ Nhôm (PKDH.005)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										7.350.000đ<span>7.990.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										Tặng Bộ 2 dây da đồng hồ Samsung Watch Active 2 Đen Xanh  và 
+										<strong>1 khuyến mãi</strong> khác
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 8%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/smart-watch/ss-glx-active.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Samsung Galaxy Watch Active SM-R500
+									</p>
+									<p class="product-content-list-item-detail_price">
+										3.400.000đ<span>5.490.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+										<strong></strong> 
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 38%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/smart-watch/ss-glx-active2.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Samsung Galaxy Watch Active 2
+									</p>
+									<p class="product-content-list-item-detail_price">
+										6.950.000đ<span>7.490.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										Tặng Bộ 2 dây da đồng hồ Samsung Watch Active 2 Đen Xanh  và 
+										<strong>1 khuyến mãi</strong> khác
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 7%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-SeeMore">
+					<a href="#">Xem thêm <span>10</span> sản phẩm&gt;&gt;</a>
+				</div>
+			</div>
+			<!-------------------------------Phụ kiện-------------------------------------------------------->
+			<div class="product">
+				<div class="product-head">
+					<div class="product-head_txt">
+						<a href="#">phụ kiện</a>
+					</div>
+					<div class="product-head-tag">
+						<a href="#">pin dự phòng</a>
+						<a href="#">ốp lưng</a>
+						<a href="#">cáp sạc</a>
+						<a href="#">Tai nghe</a>
+						<a href="#">chuột/bàn phím</a>
+					</div>
+				</div>
+				<div class="product-content">
+					<div class="product-content-list">
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/phu-kien/airoids2.webp">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Tai nghe Airpods 2 - Sạc không dây chính hãng VN/A (NB.228)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										4.900.000đ<span>6.990.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt"></p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 29%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/phu-kien/airpod pro 2.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Tai nghe Bluetooth Apple AirPods Pro VN/A (NB.241)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										7.390.000đ<span>7.990.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 7%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/phu-kien/airpod pro.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Tai nghe Bluetooth Apple AirPods Pro (NB.246)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										6.800.000đ<span>7.990.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+										<strong></strong>
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span>Trả góp 0%</span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 14%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/phu-kien/a_4.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Sim 4G Vietnamobile 1800GB 1 năm (SG.029)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										300.000đ<span></span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+										<strong></strong>
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 40%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/phu-kien/fqscaevs.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Bàn phím Bluetooth Titan KB02  (PKIT.009)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										290.000đ<span>680.000đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 57%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/phu-kien/phone sony.webp">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Tai nghe Bluetooth Sony SBH56 Trắng (NB.032)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										690.000đ<span>2.290.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 69%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/phu-kien/photo_2019-12-27_09-51-58.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										SIM 4G Mobifone C90N 4GB/Ngày (SG.058)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										300.000đ<span></span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+										<strong></strong>
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span></span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/phu-kien/pin-xiaomi-gen-3-10000-h7_4.webp">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Pin sạc dự phòng Polymer 10.000mAh Xiaomi Mi 18W Fast Charge Power Bank 3 (PK.222)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										470.000đ<span>499.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 5%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/phu-kien/sacdpss.webp">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Pin dự phòng Samsung EB-P1100 10.000 Mah cổng USB-C (PK.156)
+									</p>
+									<p class="product-content-list-item-detail_price">
+										370.000đ<span>391.000 đ</span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+										<strong></strong> 
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span>Giảm 5%</span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+						<div class="product-content-list-item">
+							<a>
+								<div class="product-content-list-item_img">
+									<img src="common/img/product/phu-kien/taycam.jpg">
+								</div>
+								<div class="product-content-list-item-detail">
+									<p class="product-content-list-item-detail_name">
+										Tay cầm chơi Game ROG Kunai Gamepad
+									</p>
+									<p class="product-content-list-item-detail_price">
+										2.490.000<span></span>
+									</p>
+									<p class="product-content-list-item-detail_txt">
+
+									</p>
+								</div>
+								<div class="product-content-list-item-gift">
+									<div class="product-content-list-item-gift_ttl">
+										<span></span>
+									</div>
+									<div class="product-content-list-item-gift_sell">
+										<span></span>
+									</div>
+								</div>
+							</a>
+							<div class="product-content-overlay">
+								<div class="product-content-overlay_AddView">
+									<a href="#"><i class="far fa-eye" title="Xem chi tiết"></i></a>
+								</div><div class="js-wishBtn product-content-overlay_AddWish">
+									<i class="far fa-heart" title="Yêu thích"></i>
+								</div>
+								<div class="js-cartBtn product-content-overlay_AddCart">
+									<i class="fas fa-shopping-cart" title="Thêm vào giỏ"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-SeeMore">
+					<a href="#">Xem thêm <span>10</span> sản phẩm&gt;&gt;</a>
+				</div>
+			</div>
+		</div>
+	</content>
+
+	<!-------------CART MOBILE------------------->
+	<div class="js-cart Cart Cart--disable">
+		<div class="js-cartView Cart_btn" data-count="0">
+			<i class="fas fa-shopping-cart"></i>
+		</div>
+	</div>
+	<!-------------------------------------------------------FOOTER------------------------------->
+	<footer>
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-content-item">
+					<div class="footer-content-infor">
+						<a href="#">Mua hàng thanh toán Online</a>
+						<a href="#">Mua hàng trả góp Online</a>
+						<a href="#">Huỷ giao dịch và đổi trả</a>
+						<a href="#">Tra thông tin đơn hàng</a>
+						<a href="#">Tra thông tin bảo hành</a>
+						<a href="#">Trung tâm bảo hành chính hãng</a>
+					</div>
+				</div>
+				<div class="footer-content-item">
+					<div class="footer-content-baohanh">
+						<a href="#">Chính sách bảo hành</a>
+						<a href="#">Chính sách sử dụng</a>
+						<a href="#">Chính sách bảo mật</a>
+						<a href="#">Ưu đãi từ đối tác</a>
+						<a href="#">Tuyển dụng</a>
+						<a href="#">Liên hệ hợp tác kinh doanh</a>
+					</div>
+				</div>
+				<div class="footer-content-item">
+					<div class="footer-content-place">
+						<span>Tìm cửa hàng</span>
+						<a href="#">Tìm cửa hàng ở Đăk Lăk</a>
+						<a href="#">Tìm cửa hàng ở TP.Hồ Chí Minh</a>
+						<a href="#">Tìm cửa hàng từ xa</a>
+					</div>
+				</div>
+				<div class="footer-content-item">
+					<div class="footer-content-call">
+						<p>Gọi mua hàng: <strong>1800.2097</strong> (8h00 - 22h00)</p>
+						<p>Gọi khiếu nại: <strong>1800.2063</strong> (8h00 - 21h30)</p>
+						<p>Gọi bảo hành: <strong>1800.2064</strong> (8h00 - 21h00)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="common/js/script.js"></script>
+</body>
+</html>
